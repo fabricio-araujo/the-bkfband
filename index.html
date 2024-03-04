@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Group Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <main>
+    <section id="home">
+      <h1>Welcome to Our Band's Website!</h1>
+      <p>We are a group of metalheads dedicated to creating heavy music.</p>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis provident, veritatis rerum, velit labore iste, ex eligendi molestiae odit voluptatem dignissimos! Laborum voluptatibus dolore alias. Libero incidunt minima perspiciatis placeat, eveniet veniam magni ex rerum dolor deserunt omnis recusandae dolore quas sit natus nulla nemo, vero, fugit culpa qui nobis hic. Commodi porro distinctio est aliquid iure iusto quo ipsum nobis possimus rerum modi, quis, placeat nostrum. Voluptatibus culpa qui vel veniam, deserunt natus reprehenderit maiores minus vitae autem, nemo iste voluptas tenetur ipsum animi debitis aliquam nisi nulla tempora eveniet repellat esse facere magnam inventore! Neque accusantium ut repellat?</p>
+    </section>
+
+    <!-- Music section -->
+    <section id="music">
+      <h2>Music</h2>
+      <div class="song">
+        <h3>Waterfalls</h3>
+        <audio controls>
+          <source src="assets/audio/waterfalls.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="song">
+        <h3>Earthlings</h3>
+        <audio controls>
+          <source src="assets/audio/earthlings.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </section>
+
+    <!-- Video section -->
+    <section id="videos">
+      <h2>Videos</h2>
+      <div class="video">
+        <h3>Waterfalls</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=j9fqaYrhzPw" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video">
+        <h3>Earthlings</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=HA_zEUWU5yM" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Contact  section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aperiam sunt placeat velit pariatur sapiente odit labore quisquam in architecto!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Music Group. All rights reserved.</p>
+  </footer>
 </body>
-</html>DOCTYPE
+</html>
